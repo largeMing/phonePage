@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>九宫格</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="mycss.css" rel="stylesheet" type="text/css">
+    <script>
+        function ons() {
+            var container = document.getElementById("box");
+            var width = container.offsetWidth;
+            //console.log(1);
+            container.style.height = width + "px";
+//            alert(1);
+        }
+
+        setInterval(ons,100);
+    </script>
+</head>
+<body>
+<div id="box" onclick="ons();">
+<div class="orange"></div>
+<div class="orange"></div>
+<div class="orange"></div>
+<div class="orange"></div>
+<div class="orange"></div>
+<div class="orange"></div>
+<div class="orange"></div>
+<div class="orange"></div>
+<div class="orange"></div>
+</div>
+</body>
+</html>
