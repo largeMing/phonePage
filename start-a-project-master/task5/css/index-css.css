@@ -12,16 +12,18 @@ body {
 .outBox {
     display: -webkit-flex;/*safari*/
     display: flex;
+    min-width: 300px;
 }
 
 .header-box {
     height: .6rem;
     line-height: .6rem;
     background: #5AC0CE;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
+    z-index: 1;
 }
 
 .header-a {
@@ -43,13 +45,13 @@ body {
 
 main {
     width: 100%;
+    margin: .6rem 0 .5rem 0;
 }
 
 .main-bg {
     background: url("../img/bg-1.gif") center no-repeat;
     background-size: cover;
     position: relative;
-    margin-top: .6rem;
     width: 100%;
     height: 2rem;
 }
@@ -88,8 +90,8 @@ main {
 
 .main-skill {
     background: url("../img/img-3.gif") .2rem center no-repeat;
-    height: .6rem;
-    line-height: .6rem;
+    height: .8rem;
+    line-height: .8rem;
     padding-left: .3rem;
     color: #333;
     font-size: .18rem;
@@ -101,12 +103,12 @@ main {
 }
 
 .main-ul li {
-    line-height: .3rem;
-    height: .3rem;
+    line-height: .6rem;
+    min-height: .6rem;
     font-size: .16rem;
     border-bottom: solid 1px #E1E5E7;
     padding: .1rem 0;
-    overflow: auto;
+
 }
 
 .main-ul-li1 span{
@@ -126,15 +128,13 @@ main {
 
 .left-font,
 .left-font5 {
+    min-height: .6rem;
     float: left;
     color: #999;
 }
 
 .right-red {
     color: #E46060;
-}
-
-.left-font5 {
 }
 
 .right-font,
@@ -144,18 +144,21 @@ main {
 }
 
 .right-font5 {
+    min-height: .6rem;
     line-height: .2rem;
 }
 
 .footer_a {
-    display: -webkit-flex;
-    display: flex;
-    width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
+    width: 100%;
+    background: #FFF;
+    display: -webkit-flex;
+    display: flex;
     justify-content: space-around;
+
 }
 
 footer div {
