@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #68CDD6;
+    font-size: 62.5%;
+}
+/*div容器*/
+.box{
+    width: 100%;
+    height: 100%;
+}
+/*最顶层 一个箭头*/
+.top{
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+}
+/*葡萄藤logo*/
+.logo{
+    text-align: center;
+    margin-top: 6em;
+}
+/*葡萄藤简介*/
+.myp{
+    padding: 4em;
+    font-size: 1.2em;
+    font-family: 华文中宋;
+    color: #ffffff;
+}
+/*最下面的两个图片*/
+.both{
+    font-size: 1.2em;
+    font-family: 华文中宋;
+    color: #ffffff;
+    padding: 4em;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.left_font{
+    margin-top: 1em;
+    text-align: center;
+}
+.right_font{
+    margin-top: 1em;
+    text-align: center;
+}
