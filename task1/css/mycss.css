@@ -1,0 +1,40 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+#box {
+	padding: 3% 0 0 3%;
+}
+
+.orange {
+	width: 30%;
+	padding: 15% 0;
+	margin: 0 3% 3% 0;
+	background: #FEA500;
+	float: left;
+	border-radius: 10px;
+}
+
+.button {
+	width: 100%;
+	text-align: center;
+	padding: 3% 0;
+	background: #FFF;
+	border: solid 1px orange;
+	color: orange;
+	margin-bottom: 5%;
+	border-radius: 5px;
+}
+
+.button:hover {
+	background: orange;
+	color: #FFF;
+	outline: none;
+}

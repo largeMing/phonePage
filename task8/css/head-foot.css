@@ -1,0 +1,174 @@
+.header-box {
+    min-width: 1200px;
+    width: 100%;
+    height: 39px;
+}
+
+.header-content {
+    position: relative;
+    width: 1200px;
+    height: 39px;
+    line-height: 39px;
+    margin: 0 auto;
+}
+
+.header-content-l {
+    font-size: 14px;
+    color: #1DB176;
+}
+
+.header-content-r {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.header-content-r img {
+    width: 25px;
+    height: 24px;
+    margin-left: 16px;
+}
+
+.nav-box {
+    min-width: 1200px;
+    width: 100%;
+    height: 100px;
+    background: #1DB176;
+}
+
+.nav-content {
+    position: relative;
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.nav-content-l {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-weight: 700;
+}
+
+.nav-content-l h1 {
+    font-size: 36px;
+}
+
+.nav-content-l p {
+    margin-top: 7px;
+}
+
+.nav-position {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.nav-box a {
+    float: left;
+    display: block;
+    height: 100px;
+    line-height: 100px;
+    padding: 0 50px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.nav-box a:hover {
+    text-decoration: none;
+}
+
+.nav-box a:first-child {
+    border-bottom: solid 3px #fff;
+}
+
+.nav-box a:last-child {
+    padding-right: 0;
+}
+
+.footer-box {
+    min-width: 1200px;
+    width: 100%;
+    height: 200px;
+    padding-top: 35px;
+    background: #1BA36D;
+}
+
+.footer-content {
+    position: relative;
+    width: 1200px;
+    height: 165px;
+    margin: 0 auto;
+    color: #DBF0E7;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer-content-l-ul {
+    margin-top: 30px;
+}
+
+.footer-content a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #DBF0E7;
+}
+
+.footer-content-l-ul li {
+    float: left;
+    margin-right: 10px;
+}
+
+.footer-content-l-ul li:not(:last-child) a {
+    padding-right: 12px;
+    border-right: solid 2px #DBF0E7;
+}
+
+.footer-content-m {
+    position: absolute;
+    top: 0;
+    left: 360px;
+}
+
+.footer-content-m h1 {
+    margin-bottom: 30px;
+}
+
+.website {
+    margin-bottom: 20px;
+}
+
+.website a {
+    padding-bottom: 5px;
+}
+
+.website a:hover {
+    text-decoration: none;
+    border-bottom: solid 2px #fff;
+}
+
+.website a:first-child {
+    margin-right: 35px;
+}
+
+.footer-content-r {
+    position: absolute;
+    top: 0;
+    right: 35px;
+    width: 100px;
+    text-align: center;
+}
+
+.footer-content-r img {
+    margin-top: 10px;
+}
+
+.footer-content-bottom {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+}

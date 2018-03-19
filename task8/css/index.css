@@ -1,0 +1,288 @@
+
+.main-box {
+    min-width: 1200px;
+    width: 100%;
+    background: #FAFAFA;
+}
+
+.carousel-img {
+    position: relative;
+    margin-top: 100px;
+}
+
+.carousel-img > img {
+    min-width: 1200px;
+    width: 100%;
+    height: 600px;
+}
+
+.carousel-img-l-arr {
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.carousel-img-r-arr {
+    position: absolute;
+    right: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.carousel-img-ul {
+    position: absolute;
+    bottom: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.carousel-img-ul li {
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    height: 265px;
+    margin: 160px auto 0;
+}
+
+.main-content-row {
+    width: 940px;
+}
+
+.col-xs-4-top div {
+    position: relative;
+    height: 65px;
+}
+
+.col-xs-4-top img {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.col-xs-4-top h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.col-xs-4 p {
+    margin-top: 30px;
+    color: #A0A0A0;
+    font-size: 16px;
+}
+
+.container-r {
+    position: absolute;
+    right: 0;
+    width: 260px;
+    height: 265px;
+    padding: 65px 0 0 52px;
+    text-align: left;
+}
+
+.container-r li {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.container-r-userNum {
+    color: #1DB176;
+    font-weight: 700;
+}
+
+.container-r-userNum img {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.container-r-userNum span {
+    vertical-align: middle;
+}
+
+.container-r li p {
+    margin-top: 15px;
+    color: #A5A5A5;
+}
+
+.container-r-border {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.how-study {
+    width: 1200px;
+    margin: 100px auto 0;
+}
+
+.how-study-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #050505;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.how-study .col-xs-3 {
+    position: relative;
+}
+
+.num-tag {
+    width: 70px;
+    height: 70px;
+    border: solid 1px #EEEEEE;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    color: #1DB176;
+    background: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: 0 2px 2px #E2E2E2;
+}
+
+.how-study-list .col-xs-3:not(:first-child) p {
+    left: 158px;
+}
+
+.how-study-list .col-xs-3 p {
+    position: absolute;
+    top: 50%;
+    left: 103px;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #999;
+}
+
+.how-study-list {
+    padding-bottom: 100px;
+}
+
+.how-study-list .col-xs-3:not(:first-child) {
+    padding-left: 55px;
+    background: url("../img/arr.png") no-repeat left;
+}
+
+.study-show-title {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0 70px;
+}
+
+.study-show-ul {
+    width: 1200px;
+    height: 370px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.study-show-ul li > div {
+    float: left;
+    width: 270px;
+    height: 365px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px 3px #EFEEEE;
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px 30px;
+}
+
+.study-show-ul li > div:not(:last-child) {
+    margin-right: 35px;
+}
+
+.study-show-ul li > div:first-child {
+    margin-left: 5px;
+}
+
+.study-show-headImg {
+    text-align: center;
+}
+
+.study-show-name {
+    margin-top: 35px;
+    color: #333;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.study-show-intro {
+    margin-top: 25px;
+    color: #B4B4B4;
+    font-size: 16px;
+}
+
+.teamwork {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 95px;
+}
+
+.teamwork-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 135px 0 65px 0;
+}
+
+.teamwork-ul {
+    display: flex;
+    height: 175px;
+    line-height: 175px;
+    text-align: center;
+    justify-content: flex-start;
+    box-shadow: 1px 1px 3px 1px #E3E3E3;
+}
+
+.teamwork-ul li:hover {
+    box-shadow: 0 0 5px 2px #E3E3E3;
+}
+
+.teamwork-ul li {
+    width: 235px;
+    margin-left: 5px;
+    background: #fff;
+}
+
+.link {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.link-title {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    margin: 22px 0 30px 0;
+}
+
+.link-ul {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.link-ul li {
+    flex: 1;
+}
+
+.link-ul a {
+    background: url("../img/disc.png") no-repeat left;
+    padding-left: 19px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #A9A9A9;
+}
+

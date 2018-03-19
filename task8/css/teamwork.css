@@ -1,0 +1,45 @@
+.main-box {
+    min-width: 1200px;
+    width: 100%;
+    margin: 100px auto 0;
+    background: #FAFAFA;
+}
+
+.main-big-img > img {
+    min-width: 1200px;
+    width: 100%;
+}
+
+.main-content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-position {
+    height: 80px;
+    line-height: 80px;
+    font-size: 16px;
+    color: #050505;
+    font-weight: 700;
+}
+
+.main-position span {
+    color: #1DB176;
+}
+
+.main-content-l {
+    width: 305px;
+    height: 710px;
+    box-sizing: border-box;
+    border: solid 2px #EDEDED;
+    border-radius: 4px;
+}
+
+.main-content-l h1 {
+    height: 62px;
+    line-height: 62px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: solid 2px #EDEDED;
+}

@@ -1,0 +1,132 @@
+html {
+    font-size: 625%;
+}
+
+body {
+    font-size: .14rem;
+    background: #F0F0F0;
+}
+
+.header-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: .7rem;
+    background: #29BDE0;
+}
+
+.glyphicon {
+    margin: .21rem 0 0 .2rem;
+    color: #FFF;
+    border-radius: 0;
+    width: .34rem;
+    height: .27rem;
+    background: #29BDE0;
+    border: 0;
+    outline: none;
+    -webkit-transform: scale(2);
+       -moz-transform: scale(2);
+        -ms-transform: scale(2);
+         -o-transform: scale(2);
+            transform: scale(2);
+}
+
+.btn {
+    margin: .21rem 0 0 .2rem;
+    background: url("../img/img-3.gif") no-repeat;
+
+}
+
+.main-box {
+    margin: 0 .35rem;
+}
+
+.last-game {
+    margin-top: .97rem;
+    height: 1.16rem;
+    border: solid 1px #C9C9C9;
+    box-sizing: border-box;
+    color: #9A9A9A;
+    line-height: 1.16rem;
+    text-align: center;
+    font-size: .3rem;
+    font-weight: 700;
+    background: #FFF url("../img/img-2.gif") no-repeat 98%;
+    background-size: .2rem .3rem;
+}
+
+.game {
+    position: relative;
+    height: 7.77rem;
+    background: #FFF;
+    margin: .27rem 0 .62rem 0;
+    border: solid 1px #C9C9C9;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.game-title {
+    height: .9rem;
+    color: #FBB435;
+    line-height: .9rem;
+    font-size: .3rem;
+    font-weight: 700;
+    border-bottom: solid 1px #FBB435;
+}
+
+.game-versions {
+    position: relative;
+}
+
+.simplify,
+.word,
+.idiot {
+    margin: .3rem .52rem .25rem;
+    height: 1.34rem;
+    line-height: 1.34rem;
+    background: #69D1E9;
+    color: #FFF;
+    font-size: .22rem;
+}
+
+.stat {
+    color: #787878;
+    font-size: .18rem;
+}
+
+.game-arr {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-30%);
+    background: url("../img/img-1.gif") no-repeat;
+    display: block;
+    width: .38rem;
+    height: .56rem;
+    z-index: 100;
+}
+
+.game-ul {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%,0);
+    -moz-transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+    -o-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+    padding: 0;
+}
+
+.game-ul li {
+    display: inline-block;
+    width: .18rem;
+    height: .18rem;
+    margin-left: .1rem;
+    border-radius: 50%;
+    background: #F0F0F0;
+}
+
+.game-ul li:hover {
+    background: #69D1E9;
+}
